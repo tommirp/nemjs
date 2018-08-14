@@ -1,0 +1,16 @@
+{
+  "port": 3000,
+  "hostUrl": "",
+  "jwtSecretKey": "",
+  "db": {
+    "host": "mongodb://localhost:27017/nemdb",
+    "user": "",
+    "pass": ""
+  },
+  "nodemailer": {
+    "host": "",
+    "port": 465,
+    "user": "",
+    "pass": ""
+  }
+}

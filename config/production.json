@@ -1,0 +1,9 @@
+{
+  "hostUrl": "",
+  "jwtSecretKey": "",
+  "db": {
+    "host": "",
+    "user": "",
+    "pass": ""
+  }
+}

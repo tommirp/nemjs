@@ -1,0 +1,96 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-console": 0,
+    "eqeqeq": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "comma-spacing": [
+      "error",
+      { "before": false, "after": true }
+    ],
+    "block-spacing": [
+      "error",
+      "always"
+    ],
+    "camelcase": "error",
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "max-len": [
+      "error",
+      { "code": 80, "tabWidth": 2 }
+    ],
+    "no-lonely-if": "error",
+    "no-else-return": "error",
+    "no-empty-function": "error",
+    "no-multi-spaces": "error",
+    "no-param-reassign": "error",
+    "require-await": "error",
+    "array-bracket-spacing": "error",
+    "eol-last": "error",
+    "no-multi-assign": "error",
+    "no-multiple-empty-lines": "error",
+    "no-trailing-spaces": "error",
+    "no-whitespace-before-property": "error",
+    "nonblock-statement-body-position": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quote-props": [
+      "error",
+      "as-needed"
+    ],
+    "space-before-blocks": "error",
+    "space-infix-ops": "error",
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed",
+      { "requireForBlockBody": true }
+    ],
+    "arrow-spacing": "error",
+    "no-confusing-arrow": "error",
+    "no-duplicate-imports": "error",
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "global-require": "error"
+  }
+}
