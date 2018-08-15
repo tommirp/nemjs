@@ -1,4 +1,5 @@
 # NEMjs
+Current Version : 0.5
 
 NEMjs is Nodejs + Expressjs + Mongodb/Mysql.
 NEMjs is Open Source & Created just for Nodejs beginner.
