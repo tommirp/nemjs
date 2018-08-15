@@ -4,11 +4,13 @@ const {
   dashboard,
 } = require('./general.controller');
 
-const { isLoggedIn } = require('../helpers/isLoggedIn.middleware');
+const {
+  loginCheck,
+} = require('../@middlewares/loginCheck');
 
 const router = express.Router();
 
 router.route('/')
-  .get(isLoggedIn, dashboard);
+  .get(dashboard);
 
 module.exports = router;

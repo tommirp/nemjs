@@ -1,14 +1,26 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>NEMjs</title>
-  {% block css %}{% endblock %}
-</head>
-<body>
-  {% block content %}{% endblock %}
-  {% block script %}{% endblock %}
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+
+    <title>NEMjs</title>
+
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/colours/colours.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    {% block css %}{% endblock %}
+  </head>
+
+  <body class="bg-dark">
+    {% block content %}{% endblock %}
+
+    <script src="../javascripts/jquery/jquery.min.js"></script>
+    <script src="../javascripts/bootstrap/bootstrap.min.js"></script>
+    {% block script %}{% endblock %}
+  </body>
 </html>

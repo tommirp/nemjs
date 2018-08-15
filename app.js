@@ -24,7 +24,7 @@ mongoose.connect(config.get('db').host, { useNewUrlParser: true }, (err) => {
 });
 
 // View Engine Init
-app.set('views', path.join(__dirname, './client/views'));
+app.set('views', path.join(__dirname, 'client/views'));
 app.use(cookieSession({
   name: '0293jf92hf34ingnwoer',
   keys: ['2jf0249jg034g', '0493jg3i4g3443ngng'],
@@ -40,7 +40,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.use(cookieParser());
 
 // Init Public Folder
-app.use(express.static(path.join(__dirname, './client/assets')));
+app.use(express.static(path.join(__dirname, 'client/assets')));
 
 // Resources init
 const

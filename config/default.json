@@ -8,8 +8,9 @@
     "pass": ""
   },
   "nodemailer": {
+    "from": "'Admin <no-reply@admin.id>",
     "host": "",
-    "port": 465,
+    "port": 587,
     "user": "",
     "pass": ""
   }

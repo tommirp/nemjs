@@ -1,2 +1,3 @@
-exports.dashboard = (_, res) =>
+exports.dashboard = (_, res) => {
   res.render('general');
+};
